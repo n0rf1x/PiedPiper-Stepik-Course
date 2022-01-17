@@ -1,0 +1,172 @@
+@media (max-width:700px) {
+    .pos{
+        text-align: left;
+        display: flex;
+    }
+}
+header {
+    background:#007765;
+    height: 80px;
+}
+body {
+    max-width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo{
+    float: left;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 8px 30px;
+    list-style: none;
+
+}
+nav li {
+    display: inline-block;
+}
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.container {
+    width: 100%;
+    max-width: 1024px;
+    padding: 17px;
+    margin: 0 auto;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.conteiner{
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 290px;
+}
+b {
+    font-weight: 800;
+}
+.img1{
+    margin: 0;
+}
+.Center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: 600;
+}
+.Problem{  
+    padding: 16px 0 0 0;
+    font-size: 50px; 
+    text-align: center;
+    color: #007765;
+    font-weight: 600;
+}
+.box__grey{
+    position: relative;
+    background: #EEEEEE;
+    height: 400px;
+}
+.text1 {
+    position:none;
+    font-weight: 600;
+    text-align: center;
+    font-size: 19px;
+}
+.Container{
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 400px;
+}
+.img3{
+    height: 400px;
+}
+.we_re{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(15px + 1vw);
+    margin-top: 10px;
+    font-weight: 500;
+}
+.box__white {
+    position: relative;
+    background: #ffffff;
+    height: 450px;
+    margin: 0;
+    padding: 20px 0 0 0 ;
+}
+.PPP {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 0 10px 0;
+    color: #007765;
+}
+.img2 {
+float: left;
+padding: 15px 40px 0 60px;
+width: 90px;
+}
+.text2 {
+    font-size: calc(4px + 1vw);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 10px 0 0 70px;
+}
+.pos  {
+    margin: auto;
+    padding: 0 490px;
+}
+.box__team{
+    position: relative;
+    background: #EEEEEE;
+    height: 850px;
+    padding: 0 240px;
+}
+.team {
+    font-size: 50px;
+    text-align: center;
+    color: #007765;
+    font-weight: 600;
+    padding: 50px 0 50px 0;
+}
+.img4 {
+    padding: 0 100px 100px 170px;
+}
+.team__style {
+    font-weight: 700; 
+}    
+.box__footer{
+    background: #333333;
+    height: 150px;
+    color: white;
+}
+.text4 {
+    text-align: center;
+    padding: 42px 0 0 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+.block__HERE{
+    position: static;
+}
+.block__BLUEF{
+    position: static;
+}
+.block__IPPP {
+    display: flex;
+}
